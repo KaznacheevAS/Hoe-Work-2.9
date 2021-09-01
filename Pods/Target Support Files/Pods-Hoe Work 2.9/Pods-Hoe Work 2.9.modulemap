@@ -1,0 +1,6 @@
+framework module Pods_Hoe_Work_2_9 {
+  umbrella header "Pods-Hoe Work 2.9-umbrella.h"
+
+  export *
+  module * { export * }
+}

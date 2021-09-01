@@ -3,19 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69B30EAABF861F105B74DD7F /* Pods_Hoe_Work_2_9.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD584F7F0BF1C53DC670258 /* Pods_Hoe_Work_2_9.framework */; };
 		AB2CBC2626DCD50900C06517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2CBC2526DCD50900C06517 /* AppDelegate.swift */; };
 		AB2CBC2826DCD50900C06517 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2CBC2726DCD50900C06517 /* SceneDelegate.swift */; };
 		AB2CBC2A26DCD50900C06517 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2CBC2926DCD50900C06517 /* ViewController.swift */; };
 		AB2CBC2D26DCD50900C06517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2CBC2B26DCD50900C06517 /* Main.storyboard */; };
 		AB2CBC2F26DCD50A00C06517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2CBC2E26DCD50A00C06517 /* Assets.xcassets */; };
 		AB2CBC3226DCD50A00C06517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2CBC3026DCD50A00C06517 /* LaunchScreen.storyboard */; };
+		AB64F96B26DE5DDA006C39AD /* Animates.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64F96A26DE5DDA006C39AD /* Animates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5BD584F7F0BF1C53DC670258 /* Pods_Hoe_Work_2_9.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hoe_Work_2_9.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2CBC2226DCD50900C06517 /* Hoe Work 2.9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hoe Work 2.9.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2CBC2526DCD50900C06517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB2CBC2726DCD50900C06517 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		AB2CBC2E26DCD50A00C06517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB2CBC3126DCD50A00C06517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB2CBC3326DCD50A00C06517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB64F96A26DE5DDA006C39AD /* Animates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animates.swift; sourceTree = "<group>"; };
+		AD4CC18F9190E0BBF31C1609 /* Pods-Hoe Work 2.9.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hoe Work 2.9.debug.xcconfig"; path = "Target Support Files/Pods-Hoe Work 2.9/Pods-Hoe Work 2.9.debug.xcconfig"; sourceTree = "<group>"; };
+		F53A1967BC48CA5BDBA0B061 /* Pods-Hoe Work 2.9.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hoe Work 2.9.release.xcconfig"; path = "Target Support Files/Pods-Hoe Work 2.9/Pods-Hoe Work 2.9.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B30EAABF861F105B74DD7F /* Pods_Hoe_Work_2_9.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10B4C502643BDD6C90C060AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BD584F7F0BF1C53DC670258 /* Pods_Hoe_Work_2_9.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F86BED5A8B91A420A319184 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD4CC18F9190E0BBF31C1609 /* Pods-Hoe Work 2.9.debug.xcconfig */,
+				F53A1967BC48CA5BDBA0B061 /* Pods-Hoe Work 2.9.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AB2CBC1926DCD50900C06517 = {
 			isa = PBXGroup;
 			children = (
 				AB2CBC2426DCD50900C06517 /* Hoe Work 2.9 */,
 				AB2CBC2326DCD50900C06517 /* Products */,
+				3F86BED5A8B91A420A319184 /* Pods */,
+				10B4C502643BDD6C90C060AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +89,7 @@
 				AB2CBC2E26DCD50A00C06517 /* Assets.xcassets */,
 				AB2CBC3026DCD50A00C06517 /* LaunchScreen.storyboard */,
 				AB2CBC3326DCD50A00C06517 /* Info.plist */,
+				AB64F96A26DE5DDA006C39AD /* Animates.swift */,
 			);
 			path = "Hoe Work 2.9";
 			sourceTree = "<group>";
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB2CBC3626DCD50A00C06517 /* Build configuration list for PBXNativeTarget "Hoe Work 2.9" */;
 			buildPhases = (
+				D43FC137CB2B15E5DA9A6190 /* [CP] Check Pods Manifest.lock */,
 				AB2CBC1E26DCD50900C06517 /* Sources */,
 				AB2CBC1F26DCD50900C06517 /* Frameworks */,
 				AB2CBC2026DCD50900C06517 /* Resources */,
+				664547B3A937DD22C360E77F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +161,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		664547B3A937DD22C360E77F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hoe Work 2.9/Pods-Hoe Work 2.9-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hoe Work 2.9/Pods-Hoe Work 2.9-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hoe Work 2.9/Pods-Hoe Work 2.9-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D43FC137CB2B15E5DA9A6190 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hoe Work 2.9-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB2CBC1E26DCD50900C06517 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +211,7 @@
 				AB2CBC2A26DCD50900C06517 /* ViewController.swift in Sources */,
 				AB2CBC2626DCD50900C06517 /* AppDelegate.swift in Sources */,
 				AB2CBC2826DCD50900C06517 /* SceneDelegate.swift in Sources */,
+				AB64F96B26DE5DDA006C39AD /* Animates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +355,7 @@
 		};
 		AB2CBC3726DCD50A00C06517 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD4CC18F9190E0BBF31C1609 /* Pods-Hoe Work 2.9.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +375,7 @@
 		};
 		AB2CBC3826DCD50A00C06517 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F53A1967BC48CA5BDBA0B061 /* Pods-Hoe Work 2.9.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
